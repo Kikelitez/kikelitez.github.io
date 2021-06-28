@@ -1,1 +1,42 @@
-"Hello World" 
+<head>
+    <title>e-commerce </title>
+    <meta charset="utf8" />
+    <meta description="Curso Santander" />
+    <link rel= "stylesheet" type= "text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<main>
+    <body>
+         <header> 				
+            <nav>
+                <ul>
+                    <li><a href=""> Opción 1  </a></li>
+                    <li><a href=""> Opción 2 </a></li>
+                </ul>
+            </nav>
+        </header>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-8 row"></main>
+        <!-- Carrito -->
+            <!-- Precio total -->
+         <p class="text-right">Subtotal: $<span id="subtotal"></span> pesos;</p>
+    </div>
+</div>
+    <section id="p5">
+    <p>Suscribete </p>
+    <p>Para recibir promociones de nuestros productos</p> 
+        <form>
+            <input id="email" type="text" size="15" maxlength="30" placeholder="Enter Email Address" name="fld-emai">
+
+            <button id="boton-subscribe"  data-action="suscribe" type="button"> SUBSCRIBE </button> 
+
+        </form>
+            
+        </section>
+</body>
+</html>
