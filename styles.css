@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, figcaption, li, a, address {
+	font-family: "calibri";
+} 
+
+
+nav{
+	background: linear-gradient(to left, rgb(200, 26, 168), rgb(13, 122, 100));
+	display:  flex;
+	justify-content: space-between;
+
+}
+
+nav div, nav ul, nav ul li{
+	display: inline-block;
+	margin-left: 2.5em;
+
+}
+
+a{
+	color:white;
+}
+
+
+main#col-sm-8.row div{
+
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+section#p6{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding-bottom: 50px;
+}
+
+section#p6 h4{
+
+	text-align: center;
+
+}
+
+section#p6 article{
+	text-align: center;
+	padding-bottom: 35px;
+	margin: 10%;
+}
+
+
+
+/*Página de carrito*/
+section #lista{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+
+}
+
+button {
+
+	margin-bottom: 10px;
+}
+
+table, th, tr{
+
+	padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th{
+	text-align: right
+}
+
+footer{
+	background-color: #124760;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	color:white;
+}
+
+footer div{
+
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
